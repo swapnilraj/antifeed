@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "@vercel/blob": "^2.6.1",
-    "antifeed": "github:swapnilraj/social-wall#v1.0.0"
+    "antifeed": "github:swapnilraj/social-wall#v1.0.1"
   }
 }
