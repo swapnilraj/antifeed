@@ -8,7 +8,12 @@ my media, my secrets. The engine that runs it is the `antifeed` package.
 ranking against `algorithm/interests.md` + `algorithm/boosts.md`, carding, the knowledge base,
 the run record, validation and publishing. If it is missing, run `npm install` first.
 
-Every `wall …` command in that contract is available here as `npx antifeed …`.
+Every `antifeed …` command in that contract is available here as `npx antifeed …`.
+
+**If I ask you to set this up / install / configure it, follow `node_modules/antifeed/docs/setup.md`
+end to end** — it is written for you: ordered steps, the exact commands, the points where you must
+stop and ask me (logins, sudo, secrets), and the `npx antifeed doctor` check after each. Interview
+me for `algorithm/interests.md`; never invent a profile.
 
 ## My rules (on top of the engine contract)
 
