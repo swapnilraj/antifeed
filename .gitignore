@@ -5,3 +5,5 @@ scratch/
 !.env.example
 .vercel
 .DS_Store
+sweep.log
+*.log
