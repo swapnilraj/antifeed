@@ -20,8 +20,8 @@ npx antifeed build && open public/index.html
 
 Optional layers, each a line or two in `.env` (see `.env.example`): a private hosted wall on
 Vercel (`WALL_URL` + `WALL_SYNC_TOKEN`, read-state sync across devices), an Obsidian knowledge
-base (`WALL_OBSIDIAN_VAULT`), self-hosted reel video (R2), and X / Instagram collection through a
-logged-in Chromium started with `--remote-debugging-port=9222`. The engine README covers each.
+base (`WALL_OBSIDIAN_VAULT`), self-hosted reel video (R2), and X / Instagram collection through `npx antifeed browser`
+(a dedicated logged-in Brave/Chrome profile on the CDP port). The engine README covers each.
 
 ## Hosted wall
 
